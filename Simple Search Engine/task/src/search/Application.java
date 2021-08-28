@@ -1,10 +1,10 @@
 package search;
 
+import search.ui.Menu;
 import search.ui.TextInterface;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Application implements TextInterface, Runnable {
@@ -21,9 +21,11 @@ public class Application implements TextInterface, Runnable {
                 .limit(number)
                 .collect(Collectors.toUnmodifiableList());
 
-        println("Enter the number of search queries:");
-        final var queries = readInt();
-        IntStream.range(0, queries).forEach(i -> search());
+        Menu.create("=== Menu ===")
+                .add("Find a person", this::search)
+                .add("Print all people", () -> text.forEach(this::println))
+                .addExit()
+                .run();
     }
 
     private void search() {
@@ -33,4 +35,5 @@ public class Application implements TextInterface, Runnable {
                 .filter(line -> line.toLowerCase().contains(word))
                 .forEach(this::println);
     }
+
 }
