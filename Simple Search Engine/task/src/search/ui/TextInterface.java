@@ -21,4 +21,7 @@ public interface TextInterface {
         println();
     }
 
+    default int readInt() {
+        return Integer.parseInt(scanner.nextLine());
+    }
 }
