@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/210158/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sun, 29 Aug 2021 09:03:23 UTC
+update_date: Sat, 18 Sep 2021 16:56:35 UTC
 stages:
 - id: 354
   step: 5496
@@ -108,8 +108,6 @@ topics:
     theory_id: 3739
   - title: JVM, JRE, and JDK
     theory_id: 3499
-  - title: Linear search
-    theory_id: 4970
   - title: Introduction to operating systems
     theory_id: 9704
   - title: Computer programming
@@ -132,11 +130,15 @@ topics:
     theory_id: 3566
   - title: IntelliJ Run Configurations
     theory_id: 10630
+  - title: Linear search
+    theory_id: 4970
   - title: Linear search in Java
     theory_id: 3541
   - title: Defining classes
     theory_id: 3618
   2:
+  - title: Package
+    theory_id: 3621
   - title: Hierarchy of exceptions
     theory_id: 3570
   - title: Exception handling
@@ -149,16 +151,14 @@ topics:
     theory_id: 3535
   - title: Instance methods
     theory_id: 3495
-  - title: Package
-    theory_id: 3621
+  - title: Objects
+    theory_id: 4727
   - title: Access modifiers
     theory_id: 3589
   - title: Getters and setters
     theory_id: 3599
   - title: Inheritance
     theory_id: 3583
-  - title: Objects
-    theory_id: 4727
   3:
   - title: Immutability
     theory_id: 7929
@@ -172,29 +172,31 @@ topics:
     theory_id: 3492
   - title: Multiple constructors
     theory_id: 3538
+  - title: Annotations basics
+    theory_id: 3622
+  - title: Static members
+    theory_id: 3534
+  - title: Interface
+    theory_id: 3615
+  - title: Comparable
+    theory_id: 14456
   - title: The keyword super
     theory_id: 3588
   - title: Protected modifier
     theory_id: 6692
   - title: Referencing subclass objects
     theory_id: 3585
-  - title: Annotations basics
-    theory_id: 3622
-  - title: Static members
-    theory_id: 3534
   - title: Hiding and overriding
     theory_id: 3572
   - title: Polymorphism
     theory_id: 3587
-  - title: Interface
-    theory_id: 3615
-  - title: Comparable
-    theory_id: 14456
   - title: Boxing and unboxing
     theory_id: 3595
   4:
   - title: Data structures
     theory_id: 5161
+  - title: Pseudocode
+    theory_id: 15090
   - title: Fixed-size array
     theory_id: 7255
   - title: Dynamic array
